@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+
+<html lang="es"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <title>Formulario de Videojuegos</title> 
+</head> 
+<body> 
+    <form action="pagina_ ficticia.html" method="get"> 
+        <label for="nombre" >Nombre del Videojuego:</label> 
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="genero">Genero:</label> 
+          <select id="genero" name="genero"> 
+              <option value="disparos">Disparos</option> 
+              <option value="carreras">Carreras</option> 
+        </select><br><br>
+         
+        <input type="checkbox" id="es bueno" name="es bueno"> 
+        <label for="es bueno">¿Ya lo jugaste?</label><br><br>
+
+        <label>valoracion: Es bueno el juego:</label> 
+        <input type="radio" id="excelente" name="valoracion" value="si"> 
+        <label for="si">Si</label> 
+        <input type="radio" id="malo" name="valoracion" value="malo"> 
+        <label for="no">No</label><br><br>
+
+        <input type="submit" value="Enviar"> 
+    </form> 
+</body> 
+</html>
